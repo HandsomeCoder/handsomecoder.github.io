@@ -1,8 +1,13 @@
 <section>
-    <section>
-        <div class="profile-pic">
-			<img alt="profile pic" src="assets/profile-pic.jpg" width="400" height="400">
-		</div>
-		<h1>Hi, This is Harsh Shah</h1>
+    <section *ngIf="isInitiated">
+        <section class="row">
+            <section class="col-3">
+                <basic-info [data]="basicInfo"></basic-info>
+                <contact-info [data]="contactInfo"></contact-info>
+            </section>
+            <section class="col-9">
+
+            </section>
+        </section>
     </section>
 </section>

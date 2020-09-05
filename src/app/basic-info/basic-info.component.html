@@ -1,0 +1,17 @@
+<section id="basic-info">
+    <section class="d-flex flex-column justify-content-center">
+        <section class="d-flex justify-content-center">
+            <div class="profile-image-container p-5">
+                <img alt="profile image" [src]="'assets/'+data.image" 
+                width="200" height="200" class="profile-image">
+            </div>
+        </section>
+        <section class="d-flex justify-content-center">
+            <span class="m-1" [textContent]="data.first_name"></span>
+            <span class="m-1" [textContent]="data.middle_name"></span>
+            <span class="m-1" [textContent]="data.last_name"></span>
+        </section>
+    </section>
+</section>
+
+

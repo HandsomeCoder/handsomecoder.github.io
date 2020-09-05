@@ -1,5 +1,6 @@
 {
     "basic_info":{
+        "image": "profile-pic.jpg",
         "first_name": "Harsh",
         "middle_name": "M.",
         "last_name": "Shah",
@@ -15,17 +16,17 @@
             "data":[{
                 "name": "LinkedIn",
                 "url": "lhttps://www.linkedin.com/in/handsomecoder/",
-                "icon": ""
+                "icon": "linkedIn.png"
             },
             {
                 "name": "Twitter",
                 "url": "https://twitter.com/harshshah1295",
-                "icon": ""
+                "icon": "twitter.png"
             },
             {
-                "name": "Facebok",
+                "name": "Facebook",
                 "url": "https://www.facebook.com/HandsomeCoder",
-                "icon": ""
+                "icon": "facebook.png"
             }]
         }]   
     }
