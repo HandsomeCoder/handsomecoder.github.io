@@ -1,0 +1,32 @@
+{
+    "basic_info":{
+        "first_name": "Harsh",
+        "middle_name": "M.",
+        "last_name": "Shah",
+        "gender": "M",
+        "dob": "11/12/1995"
+    },
+    "contact_info":{
+        "phone_no": 9727255202,
+        "email_id": "harshshah1295@gmail.com",
+        "websites": [{
+            "name": "social",
+            "labelKey": "social",
+            "data":[{
+                "name": "LinkedIn",
+                "url": "lhttps://www.linkedin.com/in/handsomecoder/",
+                "icon": ""
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/harshshah1295",
+                "icon": ""
+            },
+            {
+                "name": "Facebok",
+                "url": "https://www.facebook.com/HandsomeCoder",
+                "icon": ""
+            }]
+        }]   
+    }
+}
