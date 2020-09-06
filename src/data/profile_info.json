@@ -91,5 +91,49 @@
                 ]
             }
         ]
-    }
+    },
+    "experience": [{
+        "type": "work",
+        "label": "work_experience",
+        "experiences": [{
+            "role": "full_stack_product_developer",
+            "designation": "system_engineer",
+            "organization": { 
+                "name": "digitate_tata_consultancy_services",
+                "logo": ""
+            },
+            "location": "Pune, India",
+            "joined_on": "06/21/2018",
+            "served_till": "currently",
+            "details": ""
+        }]
+    },
+    {
+        "type": "internship",
+        "labelKey": "internship_experience",
+        "experiences": [{
+            "role": "software_developer",
+            "designation": "intern",
+            "organization": { 
+                "name": "Tata Consultancy Services",
+                "logo": ""
+            },
+            "location": "Ahmedabad, India",
+            "joined_on": "01/01/2018",
+            "served_till": "04/12/2018",
+            "details": ""
+        },
+        {
+            "role": "software_developer",
+            "designation": "intern",
+            "organization": { 
+                "name": "Hasura",
+                "logo": ""
+            },
+            "location": "Work From Home",
+            "joined_on": "06/01/2017",
+            "served_till": "08/01/2017",
+            "details": ""
+        }]
+    }]
 }
