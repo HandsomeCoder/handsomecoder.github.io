@@ -1,33 +1,95 @@
 {
-    "basic_info":{
+    "basic_info": {
         "image": "profile-pic.jpg",
-        "first_name": "Harsh",
-        "middle_name": "M.",
-        "last_name": "Shah",
-        "gender": "M",
-        "dob": "11/12/1995"
+        "name": {
+            "first_name": "Harsh",
+            "middle_name": "M.",
+            "last_name": "Shah",
+            "order": [
+                "first_name",
+                "middle_name",
+                "last_name"
+            ]
+        },
+        "gender": {
+            "value": "M",
+            "emoji": "&#128102;"
+        },
+        "dob": {
+            "value": "12/11/1995",
+            "emoji": "&#127881;"
+        }
     },
-    "contact_info":{
-        "phone_no": 9727255202,
-        "email_id": "harshshah1295@gmail.com",
-        "websites": [{
-            "name": "social",
-            "labelKey": "social",
-            "data":[{
-                "name": "LinkedIn",
-                "url": "lhttps://www.linkedin.com/in/handsomecoder/",
-                "icon": "linkedIn.png"
+    "contact_info": {
+        "phone_no": {
+            "value": 9727255202,
+            "emoji": "&#128222;"
+        },
+        "email_id": {
+            "value": "harshshah1295@gmail.com",
+            "emoji": "&#128232;",
+            "emoji_style": {
+                "font-size": "20px"
+            }
+        },
+        "websites": [
+            {
+                "name": "professional",
+                "labelKey": "professional",
+                "data": [
+                    {
+                        "name": "LinkedIn",
+                        "url": "https://www.youtube.com/channel/UCH9Nrh24y__GkstE4tl2QGw?view_as=subscriber",
+                        "icon": "linkedin.svg"
+                    },
+                    {
+                        "name": "GitHub",
+                        "url": "https://www.instagram.com/harsh_1295/",
+                        "icon": "github.svg"
+                    },
+                    {
+                        "name": "Wordpress",
+                        "url": "https://twitter.com/harshshah1295",
+                        "icon": "wordpress.svg"
+                    },
+                    {
+                        "name": "Codechef",
+                        "url": "https://www.facebook.com/HandsomeCoder",
+                        "icon": "codechef.svg"
+                    },
+                    {
+                        "name": "Hackerrank",
+                        "url": "https://www.facebook.com/HandsomeCoder",
+                        "icon": "hackerrank.svg"
+                    }
+                ]
             },
             {
-                "name": "Twitter",
-                "url": "https://twitter.com/harshshah1295",
-                "icon": "twitter.png"
-            },
-            {
-                "name": "Facebook",
-                "url": "https://www.facebook.com/HandsomeCoder",
-                "icon": "facebook.png"
-            }]
-        }]   
+                "name": "social",
+                "labelKey": "social",
+                "data": [
+                    {
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/channel/UCH9Nrh24y__GkstE4tl2QGw?view_as=subscriber",
+                        "icon": "youtube.svg"
+                    },
+                    {
+                        "name": "Instagram",
+                        "url": "https://www.instagram.com/harsh_1295/",
+                        "icon": "instagram.svg"
+                    },
+                    {
+                        "name": "Twitter",
+                        "url": "https://twitter.com/harshshah1295",
+                        "icon": "twitter.svg"
+                    },
+                    {
+                        "name": "Facebook",
+                        "url": "https://www.facebook.com/HandsomeCoder",
+                        "icon": "facebook.svg"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ContactInfoModel } from '../model/contact-info/contact-info.model';
 
 @Component({
     selector: 'contact-info',
@@ -9,9 +10,13 @@ export class ContactInfoComponent implements OnInit {
 
     @Input() data: any;
 
-    constructor() { }
+    public contactInfo: ContactInfoModel;
+
+    constructor() { 
+    }
 
     ngOnInit(): void {
+        this.contactInfo = new ContactInfoModel().deserialize(this.data);
     }
 
 }

@@ -1,15 +1,26 @@
 <section id="basic-info">
     <section class="d-flex flex-column justify-content-center">
         <section class="d-flex justify-content-center">
-            <div class="profile-image-container p-5">
-                <img alt="profile image" [src]="'assets/'+data.image" 
+            <div class="profile-image-container p-4 pb-2">
+                <img alt="profile image" [src]="'assets/images/'+basicInfo.image" 
                 width="200" height="200" class="profile-image">
             </div>
         </section>
         <section class="d-flex justify-content-center">
-            <span class="m-1" [textContent]="data.first_name"></span>
-            <span class="m-1" [textContent]="data.middle_name"></span>
-            <span class="m-1" [textContent]="data.last_name"></span>
+            <h3 class="m-1 font-weight-bold"  *ngFor="let item of data.name.order" 
+                [textContent]="basicInfo.name[item]"></h3>
+        </section>
+        <section class="color-grey d-flex justify-content-center">
+            <span class="m-1 mr-3">
+                <span [innerHTML]="basicInfo.gender.emoji | sanitizeHTML"></span>
+                <span class="ml-1" [textContent]="basicInfo.gender.value | i18n"></span>
+            </span>
+            
+            <span class="m-1 ml-3">
+                <span [innerHTML]="basicInfo.dob.emoji | sanitizeHTML"></span>
+                <span class="ml-1" [textContent]="basicInfo.dob.value"></span>    
+            </span>
+            
         </section>
     </section>
 </section>

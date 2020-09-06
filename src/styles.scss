@@ -5,3 +5,10 @@ body {
     font-weight: bold;
     opacity: 0.95;
 }
+
+@font-face {
+    font-family: "Symbola";
+    src: url("/fonts/Symbola-Emoji.woff") format("woff"),
+      url("/fonts/Symbola-Emoji.ttf") format("ttf");
+  }
+  
