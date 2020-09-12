@@ -18,6 +18,9 @@ export class AppComponent implements OnInit {
 
 	public basicInfo: any;
     public contactInfo: any;
+    public experienceInfo: any;
+    public skillsInfo: any;
+
     public isInitiated: boolean = false;
 
 	constructor(private http: HttpClient,
@@ -33,6 +36,8 @@ export class AppComponent implements OnInit {
     initiate(){
         this.basicInfo = this.profileService.get("basic_info");
         this.contactInfo = this.profileService.get("contact_info");
+        this.experienceInfo = this.profileService.get("experience_info")
+        this.skillsInfo = this.profileService.get("skills_info")
         this.isInitiated = true;
     }
 

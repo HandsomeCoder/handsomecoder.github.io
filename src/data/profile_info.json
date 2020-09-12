@@ -92,48 +92,380 @@
             }
         ]
     },
-    "experience": [{
-        "type": "work",
-        "label": "work_experience",
-        "experiences": [{
-            "role": "full_stack_product_developer",
-            "designation": "system_engineer",
-            "organization": { 
-                "name": "digitate_tata_consultancy_services",
-                "logo": ""
-            },
-            "location": "Pune, India",
-            "joined_on": "06/21/2018",
-            "served_till": "currently",
-            "details": ""
-        }]
-    },
-    {
-        "type": "internship",
-        "labelKey": "internship_experience",
-        "experiences": [{
-            "role": "software_developer",
-            "designation": "intern",
-            "organization": { 
-                "name": "Tata Consultancy Services",
-                "logo": ""
-            },
-            "location": "Ahmedabad, India",
-            "joined_on": "01/01/2018",
-            "served_till": "04/12/2018",
-            "details": ""
+    "experience_info": [
+        {
+            "type": "work",
+            "labelKey": "work_experience",
+            "experiences": [
+                {
+                    "role": {
+                        "name": "full_stack_product_developer",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "system_engineer",
+                    "organization": {
+                        "name": "digitate_tata_consultancy_services",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Pune, India",
+                    "joined_on": "06/21/2018",
+                    "served_till": "currently",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "End-to-End design architecture and development of functionalities in applications from scratch which are effectively being used and continuously integrated and upgraded.",
+                                "Client side interaction to solve issues and imposing continuous feedback approach leading to involvement in all major decisions of architecture and development of application.",
+                                "Hands on experience with Devops technology stack to ensure CI/CD pipeline and delivery solution quickly with complete automation.",
+                                "Designed architecture for major service and led a small team in successfully completing the module and integrating it in application."
+                            ]
+                        },
+                        {
+                            "title": "technologies_worked_on",
+                            "points": [
+                                "Java, SpringBoot, MongoDB, HTML5, CSS3, AngularJS, D3JS, Maven, RabbitMQ"
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "role": "software_developer",
-            "designation": "intern",
-            "organization": { 
-                "name": "Hasura",
-                "logo": ""
-            },
-            "location": "Work From Home",
-            "joined_on": "06/01/2017",
-            "served_till": "08/01/2017",
-            "details": ""
-        }]
-    }]
+            "type": "internship",
+            "labelKey": "internship_experience",
+            "experiences": [
+                {
+                    "role": {
+                        "name": "software_developer",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "intern",
+                    "organization": {
+                        "name": "tata_consultancy_services",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Ahmedabad, India",
+                    "joined_on": "01/01/2018",
+                    "served_till": "04/12/2018",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "Developed Module of eGovernance for Urban Local Bodies, \"Water and Drainage\" (GiftCity, Gandhinagar), using full stack technology with Java as Backend and HTML5, CSS3 and JavaScript as Front end.",
+                                "Client side interaction for documentation of errors on Live Project."
+                            ]
+                        },
+                        {
+                            "title": "technologies_worked_on",
+                            "points": [
+                                "Java, HTML5, CSS3, MSExcel"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "role": {
+                        "name": "software_developer",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "intern",
+                    "organization": {
+                        "name": "hasura",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Work From Home",
+                    "joined_on": "06/01/2017",
+                    "served_till": "08/01/2017",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "Built a Web-App on Hasura from scratch using multiple technologies in an eight week internship, named \"Find Tutor\" with interactive and easy UI.",
+                                "Learnt how to design WebApp and Data Models, Prototyping, Integration, Testing, and Deployment"
+                            ]
+                        },
+                        {
+                            "title": "technologies_worked_on",
+                            "points": [
+                                "HTML5, CSS3, JavaScript, NodeJS, Hasura as BaaS and PaaS, PostgreSQL"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "leadership",
+            "labelKey": "leadership_experience",
+            "experiences": [
+                {
+                    "role": {
+                        "name": "facilitator",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "facilitator",
+                    "organization": {
+                        "name": "google_developer",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Nadiad, Gujarat, India",
+                    "joined_on": "09/01/2017",
+                    "served_till": "08/31/2018",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "Conducted 2 workshops in which I have trained 60+ novice students in Android and Data Structures, used to solve real-world problems and build games on Android."
+                            ]
+                        },
+                        {
+                            "title": "technologies_taught",
+                            "points": [
+                                "Android"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "role": {
+                        "name": "lead",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "lead",
+                    "organization": {
+                        "name": "google_developer",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Nadiad, Gujarat, India",
+                    "joined_on": "09/01/2017",
+                    "served_till": "08/31/2018",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "Conducted 3 workshops and trained 65+ novice students on Mobile and Web Technology."
+                            ]
+                        },
+                        {
+                            "title": "technologies_taught",
+                            "points": [
+                                "Android, HTML5, CSS3, JavaScript"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "role": {
+                        "name": "central_council_member",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "student_representative",
+                    "organization": {
+                        "name": "charsat",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Nadiad, Gujarat, India",
+                    "joined_on": "01/01/2017",
+                    "served_till": "01/01/2018",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "Represented Information Technology (B.Tech.) department of University with 11 other members and led Cultural and Technical events consisting of 2000+ students from all over the university.",
+                                "Organised inter-university events with monetary responsibilities and diligence."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills_info": [
+        {
+            "title": "languages",
+            "labelKey": "languages",
+            "skills": [
+                {
+                    "name": "Java",
+                    "icon": "java.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Python",
+                    "icon": "python.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "C",
+                    "icon": "c.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "C++",
+                    "icon": "c++.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "HTML5",
+                    "icon": "html5.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "CSS3",
+                    "icon": "css3.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Angular",
+                    "icon": "angular.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "javascript.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Typescript",
+                    "icon": "typescript.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "NodeJS",
+                    "icon": "nodejs.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "D3JS",
+                    "icon": "d3js.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                }
+            ]
+        },
+        {
+            "title": "databases",
+            "labelKey": "databases",
+            "skills": [
+                {
+                    "name": "MongoDB",
+                    "icon": "mongodb.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": "postgresql.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "mysql.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Firebase",
+                    "icon": "firebase.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                }
+            ]
+        },
+        {
+            "title": "technologies",
+            "labelKey": "technologies",
+            "skills": [
+                {
+                    "name": "Spring",
+                    "icon": "spring.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Spring Boot",
+                    "icon": "spring.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "RabbitMQ",
+                    "icon": "rabbitmq.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Maven",
+                    "icon": "maven.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "NPM",
+                    "icon": "npm.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Docker",
+                    "icon": "docker.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Git",
+                    "icon": "git.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                }
+            ]
+        },
+        {
+            "title": "devops",
+            "labelKey": "devops",
+            "skills": [
+                {
+                    "name": "Jenkins",
+                    "icon": "jenkins.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "SonarQube",
+                    "icon": "sonarqube.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Anisble",
+                    "icon": "ansible.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Docker Swarm",
+                    "icon": "docker.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Kubernetes",
+                    "icon": "kubernetes.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                }
+            ]
+        }
+    ]
 }

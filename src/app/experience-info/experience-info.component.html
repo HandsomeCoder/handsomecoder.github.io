@@ -1,0 +1,31 @@
+<section>
+    <section class="m-4" *ngFor="let experiences of data">
+        <h4 [textContent]="experiences.labelKey | i18n"></h4>
+        <section class="mt-3" *ngFor="let experience of experiences.experiences">
+            <section>
+                <span class="mr-1" [innerHTML]="experience.organization.emoji"></span>
+                <span [textContent]="experience.organization.name | i18n"></span>
+            </section>
+            <section>
+                <span class="mr-1" [innerHTML]="experience.role.emoji"></span>
+                <em [textContent]="experience.role.name | i18n"></em>
+            </section>
+           <section class="mt-2">
+                <ul *ngFor="let detail of experience.details">
+                    <li>
+                        <section>
+                            <span class="font-weight-bold" [textContent]="detail.title | i18n"></span>
+                        </section>
+                        <section>
+                            <ul>
+                                <li *ngFor="let point of detail.points">
+                                    <span [textContent]="point"></span>
+                                </li>
+                            </ul>
+                        </section>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </section>
+</section>

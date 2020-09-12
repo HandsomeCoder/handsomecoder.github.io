@@ -1,4 +1,4 @@
-<section>
+<section class="text-center">
     <section>
         <span class="m-1">
             <span [innerHTML]="contactInfo.phone_no.emoji | sanitizeHTML"></span>
@@ -18,7 +18,7 @@
 
     <section>
         <section *ngFor="let sites of contactInfo.websites" class="mt-4">
-            <div [textContent]="sites.labelKey | i18n"></div>
+            <div class="font-weight-bold" [textContent]="sites.labelKey | i18n"></div>
             <div class="mt-1">
                 <span *ngFor="let site of sites.data" class="mr-2 ml-2 d-inline-block">
                     <a [href]="site.url" target="_blank">

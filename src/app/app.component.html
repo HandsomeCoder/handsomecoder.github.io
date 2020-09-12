@@ -1,15 +1,21 @@
 <section>
     <section *ngIf="isInitiated" class="container-fluid">
         <section class="row">
-            <section class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <section class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
                 <section>
                     <basic-info [data]="basicInfo"></basic-info>
                 </section>
-                <section>
-                    <contact-info class="d-block mt-2" [data]="contactInfo"></contact-info>
+                <section class="mt-4">
+                    <contact-info [data]="contactInfo"></contact-info>
+                </section>
+                <section class="mt-4">
+                    <skills-info [data]="skillsInfo"></skills-info>
                 </section>
             </section>
-            <section class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+            <section class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                <section>
+                    <experience-info [data]="experienceInfo"></experience-info>
+                </section>
             </section>
         </section>
     </section>

@@ -7,6 +7,8 @@ import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SanitizeHTMLPipe } from './pipes/sanitize-html.pipe';
 import { I18nPipe } from './pipes/i18n.pipe';
+import { ExperienceInfoComponent } from './experience-info/experience-info.component';
+import { SkillsInfoComponent } from './skills-info/skills-info.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { I18nPipe } from './pipes/i18n.pipe';
     BasicInfoComponent,
     ContactInfoComponent,
     SanitizeHTMLPipe,
-    I18nPipe
+    I18nPipe,
+    ExperienceInfoComponent,
+    SkillsInfoComponent
   ],
   imports: [
     BrowserModule,
