@@ -20,6 +20,8 @@ export class AppComponent implements OnInit {
     public contactInfo: any;
     public experienceInfo: any;
     public skillsInfo: any;
+    public badgeInfo: any;
+    public certificationInfo: any;
 
     public isInitiated: boolean = false;
 
@@ -38,6 +40,10 @@ export class AppComponent implements OnInit {
         this.contactInfo = this.profileService.get("contact_info");
         this.experienceInfo = this.profileService.get("experience_info")
         this.skillsInfo = this.profileService.get("skills_info")
+        this.badgeInfo = this.profileService.get("badge_info")
+        this.certificationInfo = this.profileService.get("certification_info")
+
+
         this.isInitiated = true;
     }
 

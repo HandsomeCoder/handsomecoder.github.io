@@ -298,6 +298,12 @@
                     "size": "sm"
                 },
                 {
+                    "name": "Android",
+                    "icon": "android.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
                     "name": "C",
                     "icon": "c.svg",
                     "percentage": 80,
@@ -466,6 +472,274 @@
                     "size": "sm"
                 }
             ]
+        },
+        {
+            "title": "cloud_technologies",
+            "labelKey": "cloud_technologies",
+            "skills": [
+                {
+                    "name": "Google Cloud",
+                    "icon": "gcp.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "aws.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                },
+                {
+                    "name": "Azure",
+                    "icon": "azure.svg",
+                    "percentage": 80,
+                    "size": "sm"
+                }
+            ]
         }
-    ]
+    ],
+    "badge_info": [{
+        "title": "Software Development Engineer",
+        "organization": "AWS Educate",
+        "badge": "aws-software-development-engineer.png"
+    },
+    {
+        "title": "Web Development Engineer",
+        "organization": "AWS Educate",
+        "badge": "aws-web-dev-eng.png"
+    },
+    {
+        "title": "Data Scientist",
+        "organization": "AWS Educate",
+        "badge": "aws-data-scientst.png"
+    },
+    {
+        "title": "Azure Fundamentals",
+        "organization": "Azure",
+        "badge": "azure-az900.png",
+        "link": {
+            "title": "Acclaim",
+            "url": "https://www.youracclaim.com/badges/823545b2-1436-41a7-81dc-fdd525ab8fc9/public_url"
+        }
+    },
+    {
+        "title": "Big Data Foundation",
+        "organization": "IBM",
+        "badge": "ibm-bd101.png",
+        "link": {
+            "title": "Acclaim",
+            "url":   "https://www.youracclaim.com/badges/c74b81db-a93f-4b30-b00e-42300b6d991e/public_url"
+        }
+    },
+    {
+        "title": "Hadoop Programming",
+        "organization": "IBM",
+        "badge": "ibm-hadoop101.png",
+        "link": {
+            "title": "Acclaim",
+            "url": "https://www.youracclaim.com/badges/a5682b81-3559-47c4-b37f-97619f661a57/public_url"
+        }
+    }],
+    "certification_info":[{
+        "title": "CS50's Introduction to Computer Science",
+        "organization": "CS50",
+        "issued_on": "12/30/2020",
+        "certificate": "CS50x.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://certificates.cs50.io/63e96a49-388e-4533-851e-715545552817.pdf?size=letter"
+        }
+    },
+    {
+        "title": "Design and Analysis of Algorithms",
+        "organization": "NPTEL",
+        "issued_on": "09/12/2016",
+        "certificate": "NPTEL-DAA.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs22/NPTEL16CS2218140010.jpg"
+        }
+    },
+    {
+        "title": "Programming, Data Structures and Algorithms",
+        "organization": "NPTEL",
+        "issued_on": "03/10/2016",
+        "certificate": "NPTEL-DSA.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs06/NPTEL16CS062711050.jpg"
+        }
+    },
+    {
+        "title": "Introduction to Modern Application Development",
+        "organization": "NPTEL",
+        "issued_on": "03/22/2017",
+        "certificate": "NPTEL-IMAD.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs06/NPTEL17CS0626140047AN.jpg"
+        }
+    },
+    {
+        "title": "Introduction to Operating Systems",
+        "organization": "NPTEL",
+        "issued_on": "09/11/2016",
+        "certificate": "NPTEL-OS.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs10/NPTEL16CS1025140048.jpg"
+        }
+    },
+    {
+        "title": "AI: Knowledge Representation and Reasoning",
+        "organization": "NPTEL",
+        "issued_on": "04/09/2017",
+        "certificate": "NPTEL-AI.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs04/NPTEL17CS04S2590010.jpg"
+        }
+    },
+    {
+        "title": "Big Data Computing",
+        "organization": "NPTEL",
+        "issued_on": "04/15/2019",
+        "certificate": "NPTEL-BD.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=noc19-cs33/NPTEL19CS33S41970728191221957.jpg"
+        }
+    },
+    {
+        "title": "Blockchain Architecture Design and Use Cases",
+        "organization": "NPTEL",
+        "issued_on": "04/20/2019",
+        "certificate": "NPTEL-BC.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://nptel.ac.in/noc/Ecertificate/?q=noc19-cs26/NPTEL19CS26S61970066191221957.jpg"
+        }
+    },
+    {
+        "title": "Introduction to Computer Science and Programming Using Python",
+        "organization": "MITx",
+        "issued_on": "11/05/2015",
+        "certificate": "MITx-Python.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://courses.edx.org/certificates/40130499df044e19ba984975b154d7bd"
+        }
+    },
+    {
+        "title": "HTML5 Introduction",
+        "organization": "W3Cx",
+        "issued_on": "06/01/2016",
+        "certificate": "W3Cx-HTML5-1.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://courses.edx.org/certificates/60679577f92544c89920fab82d31e6e4"
+        }
+    },
+    {
+        "title": "HTML5 Coding Essentials and Best Practices",
+        "organization": "W3Cx",
+        "issued_on": "07/06/2016",
+        "certificate": "W3Cx-HTML5-1.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://courses.edx.org/certificates/c06e987f43b64842abac9dce307733e9"
+        }
+    },
+    {
+        "title": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
+        "organization": "Google Cloud",
+        "issued_on": "07/19/2020",
+        "certificate": "Google-Microservice.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://www.coursera.org/account/accomplishments/verify/KCHQBCE9SJFZ"
+        }
+    },
+    {
+        "title": "Learning Data Visualization with D3.js",
+        "organization": "Lynda",
+        "issued_on": "10/01/2018",
+        "certificate": "Lynda-D3js.png"
+    },
+    {
+        "title": "CCNA Routing and Switching: Introduction to Networks",
+        "organization": "Cisco",
+        "issued_on": "05/28/2016",
+        "certificate": "Cisco-Certificate.png"
+    },
+    {
+        "title": "Data Modeling : (M320)",
+        "organization": "MongoDB University",
+        "issued_on": "12/14/2019",
+        "certificate": "MongoDB-M320.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/398dc889-a8f9-4f3f-af82-324064eaae23?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    },
+    {
+        "title": "MongoDB Performance : (M201)",
+        "organization": "MongoDB University",
+        "issued_on": "12/15/2019",
+        "certificate": "MongoDB-M201.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/09d79be6-75f3-4575-9ab6-dfc538041b9b?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    },
+    {
+        "title": "New Features and Tools in MongoDB 4.2 : (M042)",
+        "organization": "MongoDB University",
+        "issued_on": "12/14/2019",
+        "certificate": "MongoDB-M042.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/ff57e358-ac17-4652-a72f-91270db42a25?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    },
+    {
+        "title": "Basic Cluster Administration : (M103)",
+        "organization": "MongoDB University",
+        "issued_on": "12/15/2019",
+        "certificate": "MongoDB-M103.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/7ab2f736-e146-43f8-915d-09ff78f61eb9?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    },
+    {
+        "title": "MongoDB Basics : (M001)",
+        "organization": "MongoDB University",
+        "issued_on": "10/30/2018",
+        "certificate": "MongoDB-M001.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/22e4a63c-f63b-4164-a1e9-0dcddf64?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    },
+    {
+        "title": "The MongoDB Aggregation Framework : (M121)",
+        "organization": "MongoDB University",
+        "issued_on": "12/15/2019",
+        "certificate": "MongoDB-M121.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/738c524f-ca80-4d5f-a054-f905fe1d0779?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    },
+    {
+        "title": "MongoDB for Java Developers : (M220J)",
+        "organization": "MongoDB University",
+        "issued_on": "12/14/2019",
+        "certificate": "MongoDB-M220J.png",
+        "link": {
+            "title": "Verify",
+            "url": "https://university.mongodb.com/course_completion/5a356cc2-fb58-4f5a-801f-0c08db790a0e?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+        }
+    }]
 }

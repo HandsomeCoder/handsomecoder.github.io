@@ -9,6 +9,9 @@ import { SanitizeHTMLPipe } from './pipes/sanitize-html.pipe';
 import { I18nPipe } from './pipes/i18n.pipe';
 import { ExperienceInfoComponent } from './experience-info/experience-info.component';
 import { SkillsInfoComponent } from './skills-info/skills-info.component';
+import { BadgeInfoComponent } from './badge-info/badge-info.component';
+import { CertificationInfoComponent } from './certification-info/certification-info.component';
+import { DatetimePipe } from './pipes/datetime.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { SkillsInfoComponent } from './skills-info/skills-info.component';
     SanitizeHTMLPipe,
     I18nPipe,
     ExperienceInfoComponent,
-    SkillsInfoComponent
+    SkillsInfoComponent,
+    BadgeInfoComponent,
+    CertificationInfoComponent,
+    DatetimePipe
   ],
   imports: [
     BrowserModule,

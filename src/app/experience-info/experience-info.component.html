@@ -1,6 +1,6 @@
 <section>
     <section class="m-4" *ngFor="let experiences of data">
-        <h4 [textContent]="experiences.labelKey | i18n"></h4>
+        <h4 class="font-weight-bold" [textContent]="experiences.labelKey | i18n"></h4>
         <section class="mt-3" *ngFor="let experience of experiences.experiences">
             <section>
                 <span class="mr-1" [innerHTML]="experience.organization.emoji"></span>
