@@ -300,7 +300,7 @@
                 {
                     "name": "Android",
                     "icon": "android.svg",
-                    "percentage": 80,
+                    "percentage": 60,
                     "size": "sm"
                 },
                 {
@@ -318,13 +318,13 @@
                 {
                     "name": "HTML5",
                     "icon": "html5.svg",
-                    "percentage": 80,
+                    "percentage": 85,
                     "size": "sm"
                 },
                 {
                     "name": "CSS3",
                     "icon": "css3.svg",
-                    "percentage": 80,
+                    "percentage": 85,
                     "size": "sm"
                 },
                 {
@@ -336,7 +336,7 @@
                 {
                     "name": "Javascript",
                     "icon": "javascript.svg",
-                    "percentage": 80,
+                    "percentage": 85,
                     "size": "sm"
                 },
                 {
@@ -366,25 +366,25 @@
                 {
                     "name": "MongoDB",
                     "icon": "mongodb.svg",
-                    "percentage": 80,
+                    "percentage": 85,
                     "size": "sm"
                 },
                 {
                     "name": "PostgreSQL",
                     "icon": "postgresql.svg",
-                    "percentage": 80,
+                    "percentage": 70,
                     "size": "sm"
                 },
                 {
                     "name": "MySQL",
                     "icon": "mysql.svg",
-                    "percentage": 80,
+                    "percentage": 70,
                     "size": "sm"
                 },
                 {
                     "name": "Firebase",
                     "icon": "firebase.svg",
-                    "percentage": 80,
+                    "percentage": 60,
                     "size": "sm"
                 }
             ]
@@ -402,7 +402,7 @@
                 {
                     "name": "Spring Boot",
                     "icon": "spring.svg",
-                    "percentage": 80,
+                    "percentage": 85,
                     "size": "sm"
                 },
                 {
@@ -426,7 +426,7 @@
                 {
                     "name": "Docker",
                     "icon": "docker.svg",
-                    "percentage": 80,
+                    "percentage": 70,
                     "size": "sm"
                 },
                 {
@@ -456,19 +456,19 @@
                 {
                     "name": "Anisble",
                     "icon": "ansible.svg",
-                    "percentage": 80,
+                    "percentage": 70,
                     "size": "sm"
                 },
                 {
                     "name": "Docker Swarm",
                     "icon": "docker.svg",
-                    "percentage": 80,
+                    "percentage": 70,
                     "size": "sm"
                 },
                 {
                     "name": "Kubernetes",
                     "icon": "kubernetes.svg",
-                    "percentage": 80,
+                    "percentage": 70,
                     "size": "sm"
                 }
             ]
@@ -480,19 +480,19 @@
                 {
                     "name": "Google Cloud",
                     "icon": "gcp.svg",
-                    "percentage": 80,
+                    "percentage": 40,
                     "size": "sm"
                 },
                 {
                     "name": "AWS",
                     "icon": "aws.svg",
-                    "percentage": 80,
+                    "percentage": 40,
                     "size": "sm"
                 },
                 {
                     "name": "Azure",
                     "icon": "azure.svg",
-                    "percentage": 80,
+                    "percentage": 40,
                     "size": "sm"
                 }
             ]
@@ -542,7 +542,7 @@
     }],
     "certification_info":[{
         "title": "CS50's Introduction to Computer Science",
-        "organization": "CS50",
+        "organization": "Harvard",
         "issued_on": "12/30/2020",
         "certificate": "CS50x.png",
         "link": {
