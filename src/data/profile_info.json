@@ -11,18 +11,14 @@
                 "last_name"
             ]
         },
-        "gender": {
-            "value": "M",
+        "pronouns": {
+            "value": "he_him",
             "emoji": "&#128102;"
-        },
-        "dob": {
-            "value": "12/11/1995",
-            "emoji": "&#127881;"
         }
     },
     "contact_info": {
         "phone_no": {
-            "value": 9727255202,
+            "value": "+1 (902) 412-8065",
             "emoji": "&#128222;"
         },
         "email_id": {
@@ -99,7 +95,7 @@
             "experiences": [
                 {
                     "role": {
-                        "name": "full_stack_product_developer",
+                        "name": "product_engineer",
                         "emoji": "&#129333;"
                     },
                     "designation": "system_engineer",
@@ -109,15 +105,17 @@
                     },
                     "location": "Pune, India",
                     "joined_on": "06/21/2018",
-                    "served_till": "currently",
+                    "served_till": "12/06/2021",
                     "details": [
                         {
                             "title": "responsibilities",
                             "points": [
-                                "End-to-End design architecture and development of functionalities in applications from scratch which are effectively being used and continuously integrated and upgraded.",
-                                "Client side interaction to solve issues and imposing continuous feedback approach leading to involvement in all major decisions of architecture and development of application.",
-                                "Hands on experience with Devops technology stack to ensure CI/CD pipeline and delivery solution quickly with complete automation.",
-                                "Designed architecture for major service and led a small team in successfully completing the module and integrating it in application."
+                                "Experience in contributing architecture, design patterns, reliability and scaling of functionalities and implementing most recent and innovative solutions by following proper design patterns and standards.",
+                                "Designed architecture for system framework, core components and microservices also led and mentored other fellow developers of the team for its successful completion and regular updates.",
+                                "Owning up functionalities and driving them to completion within committed timelines.",
+                                "Practice multitasking, managing multiple stakeholders and working as a team player.",
+                                "Experience in scaling large systems while maintaining performance and usability.",
+                                "Proficiency in DevOps technology stack to ensure CI/CD pipeline and delivery solution quickly with complete automation."
                             ]
                         },
                         {
