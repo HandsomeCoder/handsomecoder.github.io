@@ -110,12 +110,11 @@
                         {
                             "title": "responsibilities",
                             "points": [
-                                "Experience in contributing architecture, design patterns, reliability and scaling of functionalities and implementing most recent and innovative solutions by following proper design patterns and standards.",
-                                "Designed architecture for system framework, core components and microservices also led and mentored other fellow developers of the team for its successful completion and regular updates.",
-                                "Owning up functionalities and driving them to completion within committed timelines.",
-                                "Practice multitasking, managing multiple stakeholders and working as a team player.",
-                                "Experience in scaling large systems while maintaining performance and usability.",
-                                "Proficiency in DevOps technology stack to ensure CI/CD pipeline and delivery solution quickly with complete automation."
+                                "Designed architecture for syncing cache on multiple servers within milliseconds using messaging queue tool.",
+                                "Improved performance of core functionality by reducing processing time from 20 minutes to 10 ms by modifying the data model.",
+                                "Built a responsive UI that can run on 3 different screen sizes by creating custom widgets. Led a team of 4 members to handle critical issues in production by setting up a war room.",
+                                "Created stable scalable architecture that handles thousands of operations in a fraction of seconds by migrating monolithic architecture into microservice with RESTful API which increased availability by 50% and performance by 60%.",
+                                "Designed on-click automation that deploys applications on 10+ servers simultaneously using CI/CD pipelines."
                             ]
                         },
                         {
@@ -149,8 +148,8 @@
                         {
                             "title": "responsibilities",
                             "points": [
-                                "Developed Module of eGovernance for Urban Local Bodies, \"Water and Drainage\" (GiftCity, Gandhinagar), using full stack technology with Java as Backend and HTML5, CSS3 and JavaScript as Front end.",
-                                "Client side interaction for documentation of errors on Live Project."
+                                "I worked on the digitalization of the \"Water and Drainage\" module of the eGovernance for Urban Local Bodies brought down the manual effort by 80% and minimizing human error.",
+                                "Communicated with the client for requirement gathering and user-experience testing which resulted in 95% user satisfaction."
                             ]
                         },
                         {
@@ -178,8 +177,9 @@
                         {
                             "title": "responsibilities",
                             "points": [
-                                "Built a Web-App on Hasura from scratch using multiple technologies in an eight week internship, named \"Find Tutor\" with interactive and easy UI.",
-                                "Learnt how to design WebApp and Data Models, Prototyping, Integration, Testing, and Deployment"
+                                "A set of problem statements was shared with me and I was expected to build a Web-Application on Hasura to solve the problem.",
+                                "In an 8-week internship, I have developed a Web-App named “Find Tutor” which is where students/parents and tutors can maintain and share their profile so that students/parents can find & contact tutors with specific skill sets and experience easily.",
+                                "I learned how to design WebApp and Data Models, Prototyping, Integration, Testing, and Deployment, I have also written a blog of work done every week."
                             ]
                         },
                         {
