@@ -31,6 +31,7 @@
                         "styles": [
                             "./node_modules/bootstrap/dist/css/bootstrap.css",
                             "src/styles.scss",
+                            "src/app/style/pointer.style.scss",
                             "src/app/style/color.style.scss",
                             "src/app/style/circle.style.scss"
                         ],

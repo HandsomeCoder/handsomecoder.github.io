@@ -20,7 +20,7 @@
         <section *ngFor="let sites of contactInfo.websites" class="mt-4">
             <div class="font-weight-bold" [textContent]="sites.labelKey | i18n"></div>
             <div class="mt-1">
-                <span *ngFor="let site of sites.data" class="mr-2 ml-2 d-inline-block">
+                <span *ngFor="let site of sites.data" class="mx-2 d-inline-block">
                     <a [href]="site.url" target="_blank">
                         <img [alt]="site.name" [src]="'assets/icons/'+site.icon" 
                         width="24" height="24">
