@@ -198,12 +198,40 @@
             "experiences": [
                 {
                     "role": {
+                        "name": "volunteer",
+                        "emoji": "&#129333;"
+                    },
+                    "designation": "volunteer",
+                    "organization": {
+                        "name": "google_developer_group_halifax",
+                        "emoji": "&#127970;"
+                    },
+                    "location": "Halifax, Nova Scotia, Canada",
+                    "joined_on": "01/01/2022",
+                    "served_till": "present",
+                    "details": [
+                        {
+                            "title": "responsibilities",
+                            "points": [
+                                "Conducted 2 workshops in which I trained 40+ participants on the latest Web and Cloud technologies with hands-on activities"
+                            ]
+                        },
+                        {
+                            "title": "technologies_taught",
+                            "points": [
+                                "Google Cloud Platform, GitHub, Netlify"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "role": {
                         "name": "facilitator",
                         "emoji": "&#129333;"
                     },
                     "designation": "facilitator",
                     "organization": {
-                        "name": "google_developer",
+                        "name": "applied_cs_skills",
                         "emoji": "&#127970;"
                     },
                     "location": "Nadiad, Gujarat, India",
@@ -231,7 +259,7 @@
                     },
                     "designation": "lead",
                     "organization": {
-                        "name": "google_developer",
+                        "name": "google_developer_student_club",
                         "emoji": "&#127970;"
                     },
                     "location": "Nadiad, Gujarat, India",
@@ -496,7 +524,8 @@
             ]
         }
     ],
-    "badge_info": [{
+    "badge_info": [
+        {
         "title": "Software Development Engineer",
         "organization": "AWS Educate",
         "badge": "aws-software-development-engineer.png"
@@ -538,7 +567,8 @@
             "url": "https://www.youracclaim.com/badges/a5682b81-3559-47c4-b37f-97619f661a57/public_url"
         }
     }],
-    "certification_info":[{
+    "certification_info":[  
+        {
         "title": "CS50's Introduction to Computer Science",
         "organization": "Harvard",
         "issued_on": "12/30/2020",
