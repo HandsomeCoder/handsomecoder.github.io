@@ -49,14 +49,14 @@
                         "icon": "wordpress.svg"
                     },
                     {
-                        "name": "Codechef",
-                        "url": "https://www.codechef.com/users/handsome_coder",
-                        "icon": "codechef.svg"
+                        "name": "Stack Exchange",
+                        "url": "https://stackexchange.com/users/8561300/handsomecoder?tab=accounts",
+                        "icon": "stackexchange.svg"
                     },
                     {
-                        "name": "Hackerrank",
-                        "url": "https://www.hackerrank.com/handsome_coder?hr_r=1",
-                        "icon": "hackerrank.svg"
+                        "name": "LinkTree",
+                        "url": "https://linktr.ee/handsomecoder",
+                        "icon": "linktree.svg"
                     }
                 ]
             },
@@ -506,19 +506,31 @@
                 {
                     "name": "Google Cloud",
                     "icon": "gcp.svg",
-                    "percentage": 40,
+                    "percentage": 60,
                     "size": "sm"
                 },
                 {
                     "name": "AWS",
                     "icon": "aws.svg",
-                    "percentage": 40,
+                    "percentage": 60,
                     "size": "sm"
                 },
                 {
                     "name": "Azure",
                     "icon": "azure.svg",
-                    "percentage": 40,
+                    "percentage": 60,
+                    "size": "sm"
+                },
+                {
+                    "name": "Netlify",
+                    "icon": "netlify.svg",
+                    "percentage": 60,
+                    "size": "sm"
+                },
+                {
+                    "name": "Heroku",
+                    "icon": "heroku.svg",
+                    "percentage": 60,
                     "size": "sm"
                 }
             ]
