@@ -36,5 +36,5 @@ ng serve
 
 1. To run development server 
 ```
-ng serve
+npm run deploy-prod
 ```
