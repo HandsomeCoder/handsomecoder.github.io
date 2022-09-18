@@ -5,14 +5,14 @@
 Application is designed in such a way that data and code is logical separated which help so to change the data with modifying the code.
 
 
-_Profile Information_
+*Profile Information*
 
 * Profile information is stored in profile_info.json which is located at following location.
 ```
 src/data/profile_info.json
 ```
 
-_i18n keystore_
+*i18n keystore*
 
 * Application is designed to have i18n where data is mapped with key and all the key has mapped translation stored in i18n_keystore
 ```
