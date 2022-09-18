@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import * as moment from 'moment';
 
 @Component({
     selector: 'experience-info',
@@ -13,5 +14,4 @@ export class ExperienceInfoComponent implements OnInit {
 
     ngOnInit(): void {
     }
-
 }

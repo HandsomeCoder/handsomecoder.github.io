@@ -1,781 +1,816 @@
 {
-    "basic_info": {
-        "image": "profile-pic.jpg",
-        "name": {
-            "first_name": "Harsh",
-            "middle_name": "M.",
-            "last_name": "Shah",
-            "order": [
-                "first_name",
-                "middle_name",
-                "last_name"
-            ]
-        },
-        "pronouns": {
-            "value": "he_him",
-            "emoji": "&#128102;"
-        }
+  "basic_info": {
+    "image": "profile-pic.jpg",
+    "name": {
+      "first_name": "Harsh",
+      "middle_name": "M.",
+      "last_name": "Shah",
+      "order": ["first_name", "middle_name", "last_name"]
     },
-    "contact_info": {
-        "email_id": {
-            "value": "harshshah1295@gmail.com",
-            "emoji": "&#128232;",
-            "emoji_style": {
-                "font-size": "20px"
-            }
-        },
-        "websites": [
+    "pronouns": {
+      "value": "he_him",
+      "emoji": "&#128102;"
+    }
+  },
+  "contact_info": {
+    "email_id": {
+      "value": "harshshah1295@gmail.com",
+      "emoji": "&#128232;",
+      "emoji_style": {
+        "font-size": "20px"
+      }
+    },
+    "websites": [
+      {
+        "name": "professional",
+        "labelKey": "professional",
+        "data": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/handsomecoder/",
+            "icon": "linkedin.svg"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/HandsomeCoder",
+            "icon": "github.svg"
+          },
+          {
+            "name": "Wordpress",
+            "url": "https://harshshah1295.wordpress.com/",
+            "icon": "wordpress.svg"
+          },
+          {
+            "name": "Stack Exchange",
+            "url": "https://stackexchange.com/users/8561300/handsomecoder?tab=accounts",
+            "icon": "stackexchange.svg"
+          },
+          {
+            "name": "LinkTree",
+            "url": "https://linktr.ee/handsomecoder",
+            "icon": "linktree.svg"
+          }
+        ]
+      },
+      {
+        "name": "social",
+        "labelKey": "social",
+        "data": [
+          {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/channel/UCH9Nrh24y__GkstE4tl2QGw?view_as=subscriber",
+            "icon": "youtube.svg"
+          },
+          {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/harsh_1295/",
+            "icon": "instagram.svg"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/harshshah1295",
+            "icon": "twitter.svg"
+          },
+          {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/HandsomeCoder",
+            "icon": "facebook.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "experience_info": [
+    {
+      "type": "work",
+      "labelKey": "work_experience",
+      "experiences": [
+        {
+          "role": {
+            "name": "aws_administrator",
+            "emoji": "&#129333;"
+          },
+          "organization": {
+            "name": "sponsor_circle",
+            "emoji": "&#127970;"
+          },
+          "location": "Remote, Canada",
+          "joined_on": "06/02/2022",
+          "details": [
             {
-                "name": "professional",
-                "labelKey": "professional",
-                "data": [
-                    {
-                        "name": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/handsomecoder/",
-                        "icon": "linkedin.svg"
-                    },
-                    {
-                        "name": "GitHub",
-                        "url": "https://github.com/HandsomeCoder",
-                        "icon": "github.svg"
-                    },
-                    {
-                        "name": "Wordpress",
-                        "url": "https://harshshah1295.wordpress.com/",
-                        "icon": "wordpress.svg"
-                    },
-                    {
-                        "name": "Stack Exchange",
-                        "url": "https://stackexchange.com/users/8561300/handsomecoder?tab=accounts",
-                        "icon": "stackexchange.svg"
-                    },
-                    {
-                        "name": "LinkTree",
-                        "url": "https://linktr.ee/handsomecoder",
-                        "icon": "linktree.svg"
-                    }
-                ]
+              "points": [
+                "Re-designed the architecture to improve resilience and resource utilization by 80% and select the right services for each task, reducing the cost by 75%.",
+                "Built an automation pipeline to deploy the application on the test and production server."
+              ]
             },
             {
-                "name": "social",
-                "labelKey": "social",
-                "data": [
-                    {
-                        "name": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCH9Nrh24y__GkstE4tl2QGw?view_as=subscriber",
-                        "icon": "youtube.svg"
-                    },
-                    {
-                        "name": "Instagram",
-                        "url": "https://www.instagram.com/harsh_1295/",
-                        "icon": "instagram.svg"
-                    },
-                    {
-                        "name": "Twitter",
-                        "url": "https://twitter.com/harshshah1295",
-                        "icon": "twitter.svg"
-                    },
-                    {
-                        "name": "Facebook",
-                        "url": "https://www.facebook.com/HandsomeCoder",
-                        "icon": "facebook.svg"
-                    }
-                ]
+              "title": "technologies_worked_on",
+              "points": ["Amazon Web Service (AWS)"]
             }
-        ]
-    },
-    "experience_info": [
-        {
-            "type": "work",
-            "labelKey": "work_experience",
-            "experiences": [
-                {
-                    "role": {
-                        "name": "product_engineer",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "system_engineer",
-                    "organization": {
-                        "name": "digitate_tata_consultancy_services",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Pune, India",
-                    "joined_on": "06/21/2018",
-                    "served_till": "12/06/2021",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "Designed architecture for syncing cache on multiple servers within milliseconds using messaging queue tool.",
-                                "Improved performance of core functionality by reducing processing time from 20 minutes to 10 ms by modifying the data model.",
-                                "Built a responsive UI that can run on 3 different screen sizes by creating custom widgets. Led a team of 4 members to handle critical issues in production by setting up a war room.",
-                                "Created stable scalable architecture that handles thousands of operations in a fraction of seconds by migrating monolithic architecture into microservice with RESTful API which increased availability by 50% and performance by 60%.",
-                                "Designed on-click automation that deploys applications on 10+ servers simultaneously using CI/CD pipelines."
-                            ]
-                        },
-                        {
-                            "title": "technologies_worked_on",
-                            "points": [
-                                "Java, SpringBoot, MongoDB, HTML5, CSS3, AngularJS, D3JS, Maven, RabbitMQ"
-                            ]
-                        }
-                    ]
-                }
-            ]
+          ]
         },
         {
-            "type": "internship",
-            "labelKey": "internship_experience",
-            "experiences": [
-                {
-                    "role": {
-                        "name": "software_developer",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "intern",
-                    "organization": {
-                        "name": "tata_consultancy_services",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Ahmedabad, India",
-                    "joined_on": "01/01/2018",
-                    "served_till": "04/12/2018",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "I worked on the digitalization of the \"Water and Drainage\" module of the eGovernance for Urban Local Bodies brought down the manual effort by 80% and minimizing human error.",
-                                "Communicated with the client for requirement gathering and user-experience testing which resulted in 95% user satisfaction."
-                            ]
-                        },
-                        {
-                            "title": "technologies_worked_on",
-                            "points": [
-                                "Java, HTML5, CSS3, MSExcel"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "role": {
-                        "name": "software_developer",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "intern",
-                    "organization": {
-                        "name": "hasura",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Work From Home",
-                    "joined_on": "06/01/2017",
-                    "served_till": "08/01/2017",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "A set of problem statements was shared with me and I was expected to build a Web-Application on Hasura to solve the problem.",
-                                "In an 8-week internship, I have developed a Web-App named “Find Tutor” which is where students/parents and tutors can maintain and share their profile so that students/parents can find & contact tutors with specific skill sets and experience easily.",
-                                "I learned how to design WebApp and Data Models, Prototyping, Integration, Testing, and Deployment, I have also written a blog of work done every week."
-                            ]
-                        },
-                        {
-                            "title": "technologies_worked_on",
-                            "points": [
-                                "HTML5, CSS3, JavaScript, NodeJS, Hasura as BaaS and PaaS, PostgreSQL"
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "role": {
+            "name": "teaching_assistant",
+            "emoji": "&#129333;"
+          },
+          "organization": {
+            "name": "dalhousie_university",
+            "emoji": "&#127970;"
+          },
+          "location": "Halifax, NS, Canada",
+          "joined_on": "04/15/2022",
+          "details": [
+            {
+              "points": [
+                "Designed assignments to evaluate the learning outcome and developed an automation script that can run test cases to assess and grade the assignment for a class of 120 students."
+              ]
+            },
+            {
+              "title": "technologies_worked_on",
+              "points": ["Amazon Web Service (AWS), Java, Junit, Mockito"]
+            }
+          ]
         },
         {
-            "type": "leadership",
-            "labelKey": "leadership_experience",
-            "experiences": [
-                {
-                    "role": {
-                        "name": "volunteer",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "volunteer",
-                    "organization": {
-                        "name": "google_developer_group_halifax",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Halifax, Nova Scotia, Canada",
-                    "joined_on": "01/01/2022",
-                    "served_till": "present",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "Conducted 2 workshops in which I trained 40+ participants on the latest Web and Cloud technologies with hands-on activities"
-                            ]
-                        },
-                        {
-                            "title": "technologies_taught",
-                            "points": [
-                                "Google Cloud Platform, GitHub, Netlify"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "role": {
-                        "name": "facilitator",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "facilitator",
-                    "organization": {
-                        "name": "applied_cs_skills",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Nadiad, Gujarat, India",
-                    "joined_on": "09/01/2017",
-                    "served_till": "08/31/2018",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "Conducted 2 workshops in which I have trained 60+ novice students in Android and Data Structures, used to solve real-world problems and build games on Android."
-                            ]
-                        },
-                        {
-                            "title": "technologies_taught",
-                            "points": [
-                                "Android"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "role": {
-                        "name": "lead",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "lead",
-                    "organization": {
-                        "name": "google_developer_student_club",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Nadiad, Gujarat, India",
-                    "joined_on": "09/01/2017",
-                    "served_till": "08/31/2018",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "Conducted 3 workshops and trained 65+ novice students on Mobile and Web Technology."
-                            ]
-                        },
-                        {
-                            "title": "technologies_taught",
-                            "points": [
-                                "Android, HTML5, CSS3, JavaScript"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "role": {
-                        "name": "central_council_member",
-                        "emoji": "&#129333;"
-                    },
-                    "designation": "student_representative",
-                    "organization": {
-                        "name": "charsat",
-                        "emoji": "&#127970;"
-                    },
-                    "location": "Nadiad, Gujarat, India",
-                    "joined_on": "01/01/2017",
-                    "served_till": "01/01/2018",
-                    "details": [
-                        {
-                            "title": "responsibilities",
-                            "points": [
-                                "Represented Information Technology (B.Tech.) department of University with 11 other members and led Cultural and Technical events consisting of 2000+ students from all over the university.",
-                                "Organised inter-university events with monetary responsibilities and diligence."
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "role": {
+            "name": "product_engineer",
+            "emoji": "&#129333;"
+          },
+          "designation": "system_engineer",
+          "organization": {
+            "name": "digitate_tata_consultancy_services",
+            "emoji": "&#127970;"
+          },
+          "location": "Pune, India",
+          "joined_on": "06/21/2018",
+          "served_till": "12/06/2021",
+          "details": [
+            {
+              "points": [
+                "Improved performance of core functionality by reducing processing time from 20 minutes to 10 ms by rewriting the complete model along with adapting suitable design patterns and OOP concepts.",
+                "Built a responsive UI that can run on 3 different screen sizes by creating custom widgets.",
+                "Led a team of 4 members to handle critical issues in production by setting up a war room.",
+                "Design a scalable architecture that is resilient by migrating from monolithic into a microservices architecture. It follows the fail fast principle which enables it to increase fault-tolerance of the overall application resulting in an increase in availability by 50% and performance by 60%.",
+                "Built automation pipeline using Azure DevOps that follows Canary pattern to deploy the application."
+              ]
+            },
+            {
+              "title": "technologies_worked_on",
+              "points": [
+                "Java, SpringBoot, MongoDB, HTML5, CSS3, AngularJS, D3JS, Maven, RabbitMQ, Azure"
+              ]
+            }
+          ]
         }
-    ],
-    "skills_info": [
+      ]
+    },
+    {
+      "type": "internship",
+      "labelKey": "internship_experience",
+      "experiences": [
         {
-            "title": "languages",
-            "labelKey": "languages",
-            "skills": [
-                {
-                    "name": "Java",
-                    "icon": "java.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Python",
-                    "icon": "python.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Android",
-                    "icon": "android.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                },
-                {
-                    "name": "C",
-                    "icon": "c.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "C++",
-                    "icon": "c++.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "HTML5",
-                    "icon": "html5.svg",
-                    "percentage": 85,
-                    "size": "sm"
-                },
-                {
-                    "name": "CSS3",
-                    "icon": "css3.svg",
-                    "percentage": 85,
-                    "size": "sm"
-                },
-                {
-                    "name": "Angular",
-                    "icon": "angular.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Javascript",
-                    "icon": "javascript.svg",
-                    "percentage": 85,
-                    "size": "sm"
-                },
-                {
-                    "name": "Typescript",
-                    "icon": "typescript.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "NodeJS",
-                    "icon": "nodejs.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "D3JS",
-                    "icon": "d3js.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                }
-            ]
+          "role": {
+            "name": "software_developer",
+            "emoji": "&#129333;"
+          },
+          "designation": "intern",
+          "organization": {
+            "name": "tata_consultancy_services",
+            "emoji": "&#127970;"
+          },
+          "location": "Ahmedabad, India",
+          "joined_on": "01/01/2018",
+          "served_till": "04/12/2018",
+          "details": [
+            {
+              "title": "responsibilities",
+              "points": [
+                "I worked on the digitalization of the \"Water and Drainage\" module of the eGovernance for Urban Local Bodies brought down the manual effort by 80% and minimizing human error.",
+                "Communicated with the client for requirement gathering and user-experience testing which resulted in 95% user satisfaction."
+              ]
+            },
+            {
+              "title": "technologies_worked_on",
+              "points": ["Java, HTML5, CSS3, MSExcel"]
+            }
+          ]
         },
         {
-            "title": "databases",
-            "labelKey": "databases",
-            "skills": [
-                {
-                    "name": "MongoDB",
-                    "icon": "mongodb.svg",
-                    "percentage": 85,
-                    "size": "sm"
-                },
-                {
-                    "name": "PostgreSQL",
-                    "icon": "postgresql.svg",
-                    "percentage": 70,
-                    "size": "sm"
-                },
-                {
-                    "name": "MySQL",
-                    "icon": "mysql.svg",
-                    "percentage": 70,
-                    "size": "sm"
-                },
-                {
-                    "name": "Firebase",
-                    "icon": "firebase.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                }
-            ]
+          "role": {
+            "name": "software_developer",
+            "emoji": "&#129333;"
+          },
+          "designation": "intern",
+          "organization": {
+            "name": "hasura",
+            "emoji": "&#127970;"
+          },
+          "location": "Work From Home",
+          "joined_on": "06/01/2017",
+          "served_till": "08/01/2017",
+          "details": [
+            {
+              "title": "responsibilities",
+              "points": [
+                "A set of problem statements was shared with me and I was expected to build a Web-Application on Hasura to solve the problem.",
+                "In an 8-week internship, I have developed a Web-App named “Find Tutor” which is where students/parents and tutors can maintain and share their profile so that students/parents can find & contact tutors with specific skill sets and experience easily.",
+                "I learned how to design WebApp and Data Models, Prototyping, Integration, Testing, and Deployment, I have also written a blog of work done every week."
+              ]
+            },
+            {
+              "title": "technologies_worked_on",
+              "points": [
+                "HTML5, CSS3, JavaScript, NodeJS, Hasura as BaaS and PaaS, PostgreSQL"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "leadership",
+      "labelKey": "leadership_experience",
+      "experiences": [
+        {
+          "role": {
+            "name": "volunteer",
+            "emoji": "&#129333;"
+          },
+          "designation": "volunteer",
+          "organization": {
+            "name": "google_developer_group_halifax",
+            "emoji": "&#127970;"
+          },
+          "location": "Halifax, Nova Scotia, Canada",
+          "joined_on": "01/01/2022",
+          "details": [
+            {
+              "title": "responsibilities",
+              "points": [
+                "Conducted 2 workshops in which I trained 40+ participants on the latest Web and Cloud technologies with hands-on activities"
+              ]
+            },
+            {
+              "title": "technologies_taught",
+              "points": ["Google Cloud Platform, GitHub, Netlify"]
+            }
+          ]
         },
         {
-            "title": "technologies",
-            "labelKey": "technologies",
-            "skills": [
-                {
-                    "name": "Spring",
-                    "icon": "spring.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Spring Boot",
-                    "icon": "spring.svg",
-                    "percentage": 85,
-                    "size": "sm"
-                },
-                {
-                    "name": "RabbitMQ",
-                    "icon": "rabbitmq.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Maven",
-                    "icon": "maven.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "NPM",
-                    "icon": "npm.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Docker",
-                    "icon": "docker.svg",
-                    "percentage": 70,
-                    "size": "sm"
-                },
-                {
-                    "name": "Git",
-                    "icon": "git.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                }
-            ]
+          "role": {
+            "name": "facilitator",
+            "emoji": "&#129333;"
+          },
+          "designation": "facilitator",
+          "organization": {
+            "name": "applied_cs_skills",
+            "emoji": "&#127970;"
+          },
+          "location": "Nadiad, Gujarat, India",
+          "joined_on": "09/01/2017",
+          "served_till": "08/31/2018",
+          "details": [
+            {
+              "title": "responsibilities",
+              "points": [
+                "Conducted 2 workshops in which I have trained 60+ novice students in Android and Data Structures, used to solve real-world problems and build games on Android."
+              ]
+            },
+            {
+              "title": "technologies_taught",
+              "points": ["Android"]
+            }
+          ]
         },
         {
-            "title": "devops",
-            "labelKey": "devops",
-            "skills": [
-                {
-                    "name": "Jenkins",
-                    "icon": "jenkins.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "SonarQube",
-                    "icon": "sonarqube.svg",
-                    "percentage": 80,
-                    "size": "sm"
-                },
-                {
-                    "name": "Anisble",
-                    "icon": "ansible.svg",
-                    "percentage": 70,
-                    "size": "sm"
-                },
-                {
-                    "name": "Docker Swarm",
-                    "icon": "docker.svg",
-                    "percentage": 70,
-                    "size": "sm"
-                },
-                {
-                    "name": "Kubernetes",
-                    "icon": "kubernetes.svg",
-                    "percentage": 70,
-                    "size": "sm"
-                }
-            ]
+          "role": {
+            "name": "lead",
+            "emoji": "&#129333;"
+          },
+          "designation": "lead",
+          "organization": {
+            "name": "google_developer_student_club",
+            "emoji": "&#127970;"
+          },
+          "location": "Nadiad, Gujarat, India",
+          "joined_on": "09/01/2017",
+          "served_till": "08/31/2018",
+          "details": [
+            {
+              "title": "responsibilities",
+              "points": [
+                "Conducted 3 workshops and trained 65+ novice students on Mobile and Web Technology."
+              ]
+            },
+            {
+              "title": "technologies_taught",
+              "points": ["Android, HTML5, CSS3, JavaScript"]
+            }
+          ]
         },
         {
-            "title": "cloud_technologies",
-            "labelKey": "cloud_technologies",
-            "skills": [
-                {
-                    "name": "Google Cloud",
-                    "icon": "gcp.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                },
-                {
-                    "name": "AWS",
-                    "icon": "aws.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                },
-                {
-                    "name": "Azure",
-                    "icon": "azure.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                },
-                {
-                    "name": "Netlify",
-                    "icon": "netlify.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                },
-                {
-                    "name": "Heroku",
-                    "icon": "heroku.svg",
-                    "percentage": 60,
-                    "size": "sm"
-                }
-            ]
+          "role": {
+            "name": "central_council_member",
+            "emoji": "&#129333;"
+          },
+          "designation": "student_representative",
+          "organization": {
+            "name": "charsat",
+            "emoji": "&#127970;"
+          },
+          "location": "Nadiad, Gujarat, India",
+          "joined_on": "01/01/2017",
+          "served_till": "01/01/2018",
+          "details": [
+            {
+              "title": "responsibilities",
+              "points": [
+                "Represented Information Technology (B.Tech.) department of University with 11 other members and led Cultural and Technical events consisting of 2000+ students from all over the university.",
+                "Organised inter-university events with monetary responsibilities and diligence."
+              ]
+            }
+          ]
         }
-    ],
-    "badge_info": [
+      ]
+    }
+  ],
+  "skills_info": [
+    {
+      "title": "languages",
+      "labelKey": "languages",
+      "skills": [
         {
-        "title": "Software Development Engineer",
-        "organization": "AWS Educate",
-        "badge": "aws-software-development-engineer.png"
-    },
-    {
-        "title": "Web Development Engineer",
-        "organization": "AWS Educate",
-        "badge": "aws-web-dev-eng.png"
-    },
-    {
-        "title": "Data Scientist",
-        "organization": "AWS Educate",
-        "badge": "aws-data-scientst.png"
-    },
-    {
-        "title": "Azure Fundamentals",
-        "organization": "Azure",
-        "badge": "azure-az900.png",
-        "link": {
-            "title": "Acclaim",
-            "url": "https://www.youracclaim.com/badges/823545b2-1436-41a7-81dc-fdd525ab8fc9/public_url"
-        }
-    },
-    {
-        "title": "Big Data Foundation",
-        "organization": "IBM",
-        "badge": "ibm-bd101.png",
-        "link": {
-            "title": "Acclaim",
-            "url":   "https://www.youracclaim.com/badges/c74b81db-a93f-4b30-b00e-42300b6d991e/public_url"
-        }
-    },
-    {
-        "title": "Hadoop Programming",
-        "organization": "IBM",
-        "badge": "ibm-hadoop101.png",
-        "link": {
-            "title": "Acclaim",
-            "url": "https://www.youracclaim.com/badges/a5682b81-3559-47c4-b37f-97619f661a57/public_url"
-        }
-    }],
-    "certification_info":[  
+          "name": "Java",
+          "icon": "java.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
         {
-        "title": "CS50's Introduction to Computer Science",
-        "organization": "Harvard",
-        "issued_on": "12/30/2020",
-        "certificate": "CS50x.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://certificates.cs50.io/63e96a49-388e-4533-851e-715545552817.pdf?size=letter"
+          "name": "Python",
+          "icon": "python.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Android",
+          "icon": "android.svg",
+          "percentage": 60,
+          "size": "sm"
+        },
+        {
+          "name": "C",
+          "icon": "c.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "C++",
+          "icon": "c++.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "HTML5",
+          "icon": "html5.svg",
+          "percentage": 85,
+          "size": "sm"
+        },
+        {
+          "name": "CSS3",
+          "icon": "css3.svg",
+          "percentage": 85,
+          "size": "sm"
+        },
+        {
+          "name": "Angular",
+          "icon": "angular.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Javascript",
+          "icon": "javascript.svg",
+          "percentage": 85,
+          "size": "sm"
+        },
+        {
+          "name": "Typescript",
+          "icon": "typescript.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "nodejs.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "D3JS",
+          "icon": "d3js.svg",
+          "percentage": 80,
+          "size": "sm"
         }
+      ]
     },
     {
-        "title": "Design and Analysis of Algorithms",
-        "organization": "NPTEL",
-        "issued_on": "09/12/2016",
-        "certificate": "NPTEL-DAA.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs22/NPTEL16CS2218140010.jpg"
+      "title": "databases",
+      "labelKey": "databases",
+      "skills": [
+        {
+          "name": "MongoDB",
+          "icon": "mongodb.svg",
+          "percentage": 85,
+          "size": "sm"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "postgresql.svg",
+          "percentage": 70,
+          "size": "sm"
+        },
+        {
+          "name": "MySQL",
+          "icon": "mysql.svg",
+          "percentage": 70,
+          "size": "sm"
+        },
+        {
+          "name": "Firebase",
+          "icon": "firebase.svg",
+          "percentage": 60,
+          "size": "sm"
         }
+      ]
     },
     {
-        "title": "Programming, Data Structures and Algorithms",
-        "organization": "NPTEL",
-        "issued_on": "03/10/2016",
-        "certificate": "NPTEL-DSA.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs06/NPTEL16CS062711050.jpg"
+      "title": "technologies",
+      "labelKey": "technologies",
+      "skills": [
+        {
+          "name": "Spring",
+          "icon": "spring.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Spring Boot",
+          "icon": "spring.svg",
+          "percentage": 85,
+          "size": "sm"
+        },
+        {
+          "name": "RabbitMQ",
+          "icon": "rabbitmq.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Maven",
+          "icon": "maven.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "NPM",
+          "icon": "npm.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Docker",
+          "icon": "docker.svg",
+          "percentage": 70,
+          "size": "sm"
+        },
+        {
+          "name": "Git",
+          "icon": "git.svg",
+          "percentage": 80,
+          "size": "sm"
         }
+      ]
     },
     {
-        "title": "Introduction to Modern Application Development",
-        "organization": "NPTEL",
-        "issued_on": "03/22/2017",
-        "certificate": "NPTEL-IMAD.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs06/NPTEL17CS0626140047AN.jpg"
+      "title": "devops",
+      "labelKey": "devops",
+      "skills": [
+        {
+          "name": "Jenkins",
+          "icon": "jenkins.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "SonarQube",
+          "icon": "sonarqube.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Anisble",
+          "icon": "ansible.svg",
+          "percentage": 70,
+          "size": "sm"
+        },
+        {
+          "name": "Docker Swarm",
+          "icon": "docker.svg",
+          "percentage": 70,
+          "size": "sm"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "kubernetes.svg",
+          "percentage": 70,
+          "size": "sm"
         }
+      ]
     },
     {
-        "title": "Introduction to Operating Systems",
-        "organization": "NPTEL",
-        "issued_on": "09/11/2016",
-        "certificate": "NPTEL-OS.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs10/NPTEL16CS1025140048.jpg"
+      "title": "cloud_technologies",
+      "labelKey": "cloud_technologies",
+      "skills": [
+        {
+          "name": "Google Cloud",
+          "icon": "gcp.svg",
+          "percentage": 60,
+          "size": "sm"
+        },
+        {
+          "name": "AWS",
+          "icon": "aws.svg",
+          "percentage": 60,
+          "size": "sm"
+        },
+        {
+          "name": "Azure",
+          "icon": "azure.svg",
+          "percentage": 60,
+          "size": "sm"
+        },
+        {
+          "name": "Netlify",
+          "icon": "netlify.svg",
+          "percentage": 60,
+          "size": "sm"
+        },
+        {
+          "name": "Heroku",
+          "icon": "heroku.svg",
+          "percentage": 60,
+          "size": "sm"
         }
+      ]
+    }
+  ],
+  "badge_info": [
+    {
+      "title": "Software Development Engineer",
+      "organization": "AWS Educate",
+      "badge": "aws-software-development-engineer.png"
     },
     {
-        "title": "AI: Knowledge Representation and Reasoning",
-        "organization": "NPTEL",
-        "issued_on": "04/09/2017",
-        "certificate": "NPTEL-AI.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs04/NPTEL17CS04S2590010.jpg"
-        }
+      "title": "Web Development Engineer",
+      "organization": "AWS Educate",
+      "badge": "aws-web-dev-eng.png"
     },
     {
-        "title": "Big Data Computing",
-        "organization": "NPTEL",
-        "issued_on": "04/15/2019",
-        "certificate": "NPTEL-BD.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=noc19-cs33/NPTEL19CS33S41970728191221957.jpg"
-        }
+      "title": "Data Scientist",
+      "organization": "AWS Educate",
+      "badge": "aws-data-scientst.png"
     },
     {
-        "title": "Blockchain Architecture Design and Use Cases",
-        "organization": "NPTEL",
-        "issued_on": "04/20/2019",
-        "certificate": "NPTEL-BC.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://nptel.ac.in/noc/Ecertificate/?q=noc19-cs26/NPTEL19CS26S61970066191221957.jpg"
-        }
+      "title": "Azure Fundamentals",
+      "organization": "Azure",
+      "badge": "azure-az900.png",
+      "link": {
+        "title": "Acclaim",
+        "url": "https://www.youracclaim.com/badges/823545b2-1436-41a7-81dc-fdd525ab8fc9/public_url"
+      }
     },
     {
-        "title": "Introduction to Computer Science and Programming Using Python",
-        "organization": "MITx",
-        "issued_on": "11/05/2015",
-        "certificate": "MITx-Python.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://courses.edx.org/certificates/40130499df044e19ba984975b154d7bd"
-        }
+      "title": "Big Data Foundation",
+      "organization": "IBM",
+      "badge": "ibm-bd101.png",
+      "link": {
+        "title": "Acclaim",
+        "url": "https://www.youracclaim.com/badges/c74b81db-a93f-4b30-b00e-42300b6d991e/public_url"
+      }
     },
     {
-        "title": "HTML5 Introduction",
-        "organization": "W3Cx",
-        "issued_on": "06/01/2016",
-        "certificate": "W3Cx-HTML5-1.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://courses.edx.org/certificates/60679577f92544c89920fab82d31e6e4"
-        }
+      "title": "Hadoop Programming",
+      "organization": "IBM",
+      "badge": "ibm-hadoop101.png",
+      "link": {
+        "title": "Acclaim",
+        "url": "https://www.youracclaim.com/badges/a5682b81-3559-47c4-b37f-97619f661a57/public_url"
+      }
+    }
+  ],
+  "certification_info": [
+    {
+      "title": "CS50's Introduction to Computer Science",
+      "organization": "Harvard",
+      "issued_on": "12/30/2020",
+      "certificate": "CS50x.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://certificates.cs50.io/63e96a49-388e-4533-851e-715545552817.pdf?size=letter"
+      }
     },
     {
-        "title": "HTML5 Coding Essentials and Best Practices",
-        "organization": "W3Cx",
-        "issued_on": "07/06/2016",
-        "certificate": "W3Cx-HTML5-1.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://courses.edx.org/certificates/c06e987f43b64842abac9dce307733e9"
-        }
+      "title": "Design and Analysis of Algorithms",
+      "organization": "NPTEL",
+      "issued_on": "09/12/2016",
+      "certificate": "NPTEL-DAA.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs22/NPTEL16CS2218140010.jpg"
+      }
     },
     {
-        "title": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
-        "organization": "Google Cloud",
-        "issued_on": "07/19/2020",
-        "certificate": "Google-Microservice.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://www.coursera.org/account/accomplishments/verify/KCHQBCE9SJFZ"
-        }
+      "title": "Programming, Data Structures and Algorithms",
+      "organization": "NPTEL",
+      "issued_on": "03/10/2016",
+      "certificate": "NPTEL-DSA.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs06/NPTEL16CS062711050.jpg"
+      }
     },
     {
-        "title": "Learning Data Visualization with D3.js",
-        "organization": "Lynda",
-        "issued_on": "10/01/2018",
-        "certificate": "Lynda-D3js.png"
+      "title": "Introduction to Modern Application Development",
+      "organization": "NPTEL",
+      "issued_on": "03/22/2017",
+      "certificate": "NPTEL-IMAD.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs06/NPTEL17CS0626140047AN.jpg"
+      }
     },
     {
-        "title": "CCNA Routing and Switching: Introduction to Networks",
-        "organization": "Cisco",
-        "issued_on": "05/28/2016",
-        "certificate": "Cisco-Certificate.png"
+      "title": "Introduction to Operating Systems",
+      "organization": "NPTEL",
+      "issued_on": "09/11/2016",
+      "certificate": "NPTEL-OS.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs10/NPTEL16CS1025140048.jpg"
+      }
     },
     {
-        "title": "Data Modeling : (M320)",
-        "organization": "MongoDB University",
-        "issued_on": "12/14/2019",
-        "certificate": "MongoDB-M320.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/398dc889-a8f9-4f3f-af82-324064eaae23?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
+      "title": "AI: Knowledge Representation and Reasoning",
+      "organization": "NPTEL",
+      "issued_on": "04/09/2017",
+      "certificate": "NPTEL-AI.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs04/NPTEL17CS04S2590010.jpg"
+      }
     },
     {
-        "title": "MongoDB Performance : (M201)",
-        "organization": "MongoDB University",
-        "issued_on": "12/15/2019",
-        "certificate": "MongoDB-M201.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/09d79be6-75f3-4575-9ab6-dfc538041b9b?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
+      "title": "Big Data Computing",
+      "organization": "NPTEL",
+      "issued_on": "04/15/2019",
+      "certificate": "NPTEL-BD.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=noc19-cs33/NPTEL19CS33S41970728191221957.jpg"
+      }
     },
     {
-        "title": "New Features and Tools in MongoDB 4.2 : (M042)",
-        "organization": "MongoDB University",
-        "issued_on": "12/14/2019",
-        "certificate": "MongoDB-M042.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/ff57e358-ac17-4652-a72f-91270db42a25?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
+      "title": "Blockchain Architecture Design and Use Cases",
+      "organization": "NPTEL",
+      "issued_on": "04/20/2019",
+      "certificate": "NPTEL-BC.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://nptel.ac.in/noc/Ecertificate/?q=noc19-cs26/NPTEL19CS26S61970066191221957.jpg"
+      }
     },
     {
-        "title": "Basic Cluster Administration : (M103)",
-        "organization": "MongoDB University",
-        "issued_on": "12/15/2019",
-        "certificate": "MongoDB-M103.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/7ab2f736-e146-43f8-915d-09ff78f61eb9?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
+      "title": "Introduction to Computer Science and Programming Using Python",
+      "organization": "MITx",
+      "issued_on": "11/05/2015",
+      "certificate": "MITx-Python.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://courses.edx.org/certificates/40130499df044e19ba984975b154d7bd"
+      }
     },
     {
-        "title": "MongoDB Basics : (M001)",
-        "organization": "MongoDB University",
-        "issued_on": "10/30/2018",
-        "certificate": "MongoDB-M001.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/22e4a63c-f63b-4164-a1e9-0dcddf64?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
+      "title": "HTML5 Introduction",
+      "organization": "W3Cx",
+      "issued_on": "06/01/2016",
+      "certificate": "W3Cx-HTML5-1.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://courses.edx.org/certificates/60679577f92544c89920fab82d31e6e4"
+      }
     },
     {
-        "title": "The MongoDB Aggregation Framework : (M121)",
-        "organization": "MongoDB University",
-        "issued_on": "12/15/2019",
-        "certificate": "MongoDB-M121.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/738c524f-ca80-4d5f-a054-f905fe1d0779?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
+      "title": "HTML5 Coding Essentials and Best Practices",
+      "organization": "W3Cx",
+      "issued_on": "07/06/2016",
+      "certificate": "W3Cx-HTML5-1.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://courses.edx.org/certificates/c06e987f43b64842abac9dce307733e9"
+      }
     },
     {
-        "title": "MongoDB for Java Developers : (M220J)",
-        "organization": "MongoDB University",
-        "issued_on": "12/14/2019",
-        "certificate": "MongoDB-M220J.png",
-        "link": {
-            "title": "Verify",
-            "url": "https://university.mongodb.com/course_completion/5a356cc2-fb58-4f5a-801f-0c08db790a0e?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
-        }
-    }]
+      "title": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
+      "organization": "Google Cloud",
+      "issued_on": "07/19/2020",
+      "certificate": "Google-Microservice.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://www.coursera.org/account/accomplishments/verify/KCHQBCE9SJFZ"
+      }
+    },
+    {
+      "title": "Learning Data Visualization with D3.js",
+      "organization": "Lynda",
+      "issued_on": "10/01/2018",
+      "certificate": "Lynda-D3js.png"
+    },
+    {
+      "title": "CCNA Routing and Switching: Introduction to Networks",
+      "organization": "Cisco",
+      "issued_on": "05/28/2016",
+      "certificate": "Cisco-Certificate.png"
+    },
+    {
+      "title": "Data Modeling : (M320)",
+      "organization": "MongoDB University",
+      "issued_on": "12/14/2019",
+      "certificate": "MongoDB-M320.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/398dc889-a8f9-4f3f-af82-324064eaae23?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    },
+    {
+      "title": "MongoDB Performance : (M201)",
+      "organization": "MongoDB University",
+      "issued_on": "12/15/2019",
+      "certificate": "MongoDB-M201.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/09d79be6-75f3-4575-9ab6-dfc538041b9b?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    },
+    {
+      "title": "New Features and Tools in MongoDB 4.2 : (M042)",
+      "organization": "MongoDB University",
+      "issued_on": "12/14/2019",
+      "certificate": "MongoDB-M042.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/ff57e358-ac17-4652-a72f-91270db42a25?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    },
+    {
+      "title": "Basic Cluster Administration : (M103)",
+      "organization": "MongoDB University",
+      "issued_on": "12/15/2019",
+      "certificate": "MongoDB-M103.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/7ab2f736-e146-43f8-915d-09ff78f61eb9?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    },
+    {
+      "title": "MongoDB Basics : (M001)",
+      "organization": "MongoDB University",
+      "issued_on": "10/30/2018",
+      "certificate": "MongoDB-M001.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/22e4a63c-f63b-4164-a1e9-0dcddf64?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    },
+    {
+      "title": "The MongoDB Aggregation Framework : (M121)",
+      "organization": "MongoDB University",
+      "issued_on": "12/15/2019",
+      "certificate": "MongoDB-M121.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/738c524f-ca80-4d5f-a054-f905fe1d0779?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    },
+    {
+      "title": "MongoDB for Java Developers : (M220J)",
+      "organization": "MongoDB University",
+      "issued_on": "12/14/2019",
+      "certificate": "MongoDB-M220J.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://university.mongodb.com/course_completion/5a356cc2-fb58-4f5a-801f-0c08db790a0e?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+      }
+    }
+  ]
 }

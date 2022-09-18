@@ -7,7 +7,7 @@ import * as moment from 'moment';
 export class DatetimePipe implements PipeTransform {
 
   transform(value: string, ...args: string[]): unknown {
-    return moment(value).format(args[0]);
+    return value == undefined ? null : moment(value).format(args[0]);
   }
 
 }
