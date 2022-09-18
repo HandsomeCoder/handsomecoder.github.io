@@ -1,6 +1,6 @@
-### My Portfolio
+## My Portfolio
 
-## Datasource
+### Datasource
 
 Application is designed in such a way that data and code is logical separated which help so to change the data with modifying the code.
 
@@ -23,16 +23,16 @@ Application is designed to have i18n where data is mapped with key and all the k
 src/data/i18n_keystore.json
 ```
 
-## Steps to run
+### Steps to run
 
-# For Development
+#### For Development
 
 1. To run development server 
 ```
 ng serve
 ```
 
-# For Production
+#### For Production
 
 1. To run development server 
 ```
