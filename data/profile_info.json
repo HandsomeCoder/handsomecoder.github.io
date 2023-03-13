@@ -99,9 +99,9 @@
           "details": [
             {
               "points": [
-                "Enhanced the dev tool which can configure and set up developer workstation within 20 mins, where it can detect and resolves issues automatically.",
-                "Worked on reducing technical debt by performing code migration to replace outdated libraries, Fixing cosmetic UI (User Interface) issues to improve UX (User Experience), etc.",
-                "Improved database seeder to enable the quality assurance team to insert millions of records using a single jsonl file."
+                "Enhanced the dev tool which can configure and set up the developer's workstation within 15 minutes and automatically detect and resolve issues.",
+                "Worked on reducing technical debt by migrating code to replace outdated libraries and fixing cosmetic UI (User Interface) issues to improve UX (User Experience).",
+                "Enhanced database seeder, allowing the QA team to insert millions of records with a single JSON lines file."
               ]
             },
             {
