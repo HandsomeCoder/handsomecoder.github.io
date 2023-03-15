@@ -87,6 +87,31 @@
       "experiences": [
         {
           "role": {
+            "name": "software_developer_coop",
+            "emoji": "&#129333;"
+          },
+          "organization": {
+            "name": "tulip",
+            "emoji": "&#127970;"
+          },
+          "location": "Remote, Canada",
+          "joined_on": "01/05/2023",
+          "details": [
+            {
+              "points": [
+                "Enhanced the dev tool which can configure and set up the developer's workstation within 15 minutes and automatically detect and resolve issues.",
+                "Worked on reducing technical debt by migrating code to replace outdated libraries and fixing cosmetic UI (User Interface) issues to improve UX (User Experience).",
+                "Enhanced database seeder, allowing the QA team to insert millions of records with a single JSON lines file."
+              ]
+            },
+            {
+              "title": "technologies_worked_on",
+              "points": ["Golang, PHP, ReactJS, JSON, GCP, Docker, Kubernetes"]
+            }
+          ]
+         } ,
+        {
+          "role": {
             "name": "aws_administrator",
             "emoji": "&#129333;"
           },
@@ -96,16 +121,18 @@
           },
           "location": "Remote, Canada",
           "joined_on": "06/02/2022",
+          "served_till": "11/15/2022",
           "details": [
             {
               "points": [
-                "Re-designed the architecture to improve resilience and resource utilization by 80% and select the right services for each task, reducing the cost by 75%.",
-                "Built an automation pipeline to deploy the application on the test and production server."
+                "Redesigned AWS architecture to improve resilience and resource utilization by 80%.",
+                "Selected appropriate services for specific workloads, such as Amazon EBS, AWS Lambda, Amazon LightSail, AWS ECS, Amazon S3, and Amazon EventBridge, leading to a 75% cost savings.",
+                "Built a CI/CD pipeline to deploy the application on various servers using AWS CodeCommit and CodePipeline."
               ]
             },
             {
               "title": "technologies_worked_on",
-              "points": ["Amazon Web Service (AWS)"]
+              "points": ["Amazon Web Services (AWS), Docker, JSON"]
             }
           ]
         },
@@ -134,7 +161,7 @@
         },
         {
           "role": {
-            "name": "product_engineer",
+            "name": "software_developer",
             "emoji": "&#129333;"
           },
           "designation": "system_engineer",
@@ -148,17 +175,18 @@
           "details": [
             {
               "points": [
-                "Improved performance of core functionality by reducing processing time from 20 minutes to 10 ms by rewriting the complete model along with adapting suitable design patterns and OOP concepts.",
-                "Built a responsive UI that can run on 3 different screen sizes by creating custom widgets.",
-                "Led a team of 4 members to handle critical issues in production by setting up a war room.",
-                "Design a scalable architecture that is resilient by migrating from monolithic into a microservices architecture. It follows the fail fast principle which enables it to increase fault-tolerance of the overall application resulting in an increase in availability by 50% and performance by 60%.",
-                "Built automation pipeline using Azure DevOps that follows Canary pattern to deploy the application."
+                "Improved performance of core functionality by reducing processing time from 20 mins to 10 milliseconds by refactoring data model in MongoDB along with adapting suitable design patterns and OOP concepts of Java.",
+                "Built a responsive user interface that can run on 3 different screen sizes by creating custom widgets in Angular.",
+                "Provided L3 product support and converted the issues into user stories, reducing support time by 60%.",
+                "Led a team of 4 to upgrade and modularized the major functionalities to the most recent standards, increasing the entire application's code coverage and quality by 20% using JUnit, Mockito, JaCoCo and SonarQube.",
+                "Designed the architecture to break the monolithic application into microservices which increased fault tolerance resulting in improved availability by 50% and performance by 60% using Netflix Eureka, Zuul, and Hystrix.",
+                "Built a CI/CD pipeline to deploy the application on a cluster of 10+ servers using Jenkins and Groovy."
               ]
             },
             {
               "title": "technologies_worked_on",
               "points": [
-                "Java, SpringBoot, MongoDB, HTML5, CSS3, AngularJS, D3JS, Maven, RabbitMQ, Azure"
+                "Java 8, Spring (Boot, Cloud, Security, Actuator),Netflix (Eureka, Zuul, Hystrix), RESTful Web Services, Angular, HTML5, CSS3, JavaScript, RabbitMQ, MongoDB, Maven, Jenkins, Azure DevOpse"
               ]
             }
           ]
@@ -343,6 +371,12 @@
         {
           "name": "Java",
           "icon": "java.svg",
+          "percentage": 80,
+          "size": "sm"
+        },
+        {
+          "name": "Go",
+          "icon": "golang.svg",
           "percentage": 80,
           "size": "sm"
         },
@@ -610,6 +644,46 @@
     }
   ],
   "certification_info": [
+    {
+      "title": "Programming with Google Go Specialization",
+      "organization": "University of California, Irvine",
+      "issued_on": "31/12/2022",
+      "certificate": "go_specialization.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/9XH4QZEQFXVY"
+      }
+    },
+    {
+      "title": "Concurrency in Go",
+      "organization": "University of California, Irvine",
+      "issued_on": "12/31/2022",
+      "certificate": "go_concurrency.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/CY75FBTCPGCY"
+      }
+    },
+    {
+      "title": "Functions, Methods, and Interfaces in Go",
+      "organization": "University of California, Irvine",
+      "issued_on": "11/17/2022",
+      "certificate": "go_func_method.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/6T263F8ZZHQ4"
+      }
+    },
+    {
+      "title": "Getting Started with Go",
+      "organization": "University of California, Irvine",
+      "issued_on": "10/10/2022",
+      "certificate": "go_starter.png",
+      "link": {
+        "title": "Verify",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/4WZBTFHTQP2V"
+      }
+    },
     {
       "title": "CS50's Introduction to Computer Science",
       "organization": "Harvard",
