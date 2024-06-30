@@ -7,8 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy-test": "ng build --configuration production && ngh",
-    "deploy-prod": "ng build --configuration production  && ngh --branch=production",
+    "deploy:test": "ng deploy --branch=staging",
+    "deploy:prod": "ng deploy --branch=main",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -35,6 +35,7 @@
     "@angular/compiler-cli": "^18.0.5",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^2.0.1",
     "jasmine-core": "~4.0.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",

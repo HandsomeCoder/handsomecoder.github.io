@@ -1,5 +1,4 @@
 node_modules
 dist
-workspace.code-workspace
 .angular/
-handsomecoder.github.io.code-workspace
+.DS_store
