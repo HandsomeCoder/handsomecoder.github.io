@@ -7,8 +7,6 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy:test": "ng deploy --branch=staging",
-    "deploy:prod": "ng deploy --branch=main",
     "e2e": "ng e2e"
   },
   "private": true,
