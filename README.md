@@ -25,12 +25,10 @@ src/data/i18n_keystore.json
 
 1. To run development server 
 ```
-ng serve
+npm run start
 ```
 
 #### For Production
 
-1. To run development server 
-```
-npm run deploy-prod
-```
+1. Open a pull request against the `main` branch.
+2. Upon merging changes to the main branch, the code is deployed to GitHub Pages.
