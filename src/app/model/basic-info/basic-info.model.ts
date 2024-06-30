@@ -1,8 +1,7 @@
-import { Gender } from 'src/app/enums/gender.enum'
-import { Deserializable } from 'src/app/interfaces/deserializable'
-import * as moment from 'moment'
-import { EmojiModel } from '../emoji-value/emoji.model'
-import { Pronouns } from 'src/app/enums/pronouns.enum'
+import { Gender } from 'src/app/enums/gender.enum';
+import { Deserializable } from 'src/app/interfaces/deserializable';
+import { EmojiModel } from '../emoji-value/emoji.model';
+import { Pronouns } from 'src/app/enums/pronouns.enum';
 
 export class BasicInfoModel  implements Deserializable {
     
@@ -23,11 +22,6 @@ export class BasicInfoModel  implements Deserializable {
         if(input.gender){
             this.gender = new EmojiModel().deserialize(input.gender);
             this.gender.value = Gender[input.gender.value];
-        }
-        
-        if(input.dob){
-            this.dob = new EmojiModel().deserialize(input.dob);
-            this.dob.value = moment(input.dob.value).format('LL');
         }
 
         if(input.pronouns){

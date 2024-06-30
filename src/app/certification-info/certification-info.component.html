@@ -19,7 +19,7 @@
                     </section>
                     <section>
                         <span class="card-text font-weight-bold" [textContent]="'Issued On: '"></span>
-                        <span class="card-text" [textContent]="certificate.issued_on | datetime : 'LL'"></span>
+                        <span class="card-text" [textContent]="certificate.issued_on | datetime : 'LLLL dd, yyyy'"></span>
                     </section>
                     <section *ngIf="certificate.link" class="mt-3 d-flex justify-content-center">
                         <a [href]="certificate.link.url" target="_blank" class="btn btn-primary">
