@@ -25,7 +25,7 @@ src/data/i18n_keystore.json
 
 1. To run development server 
 ```
-ng serve
+npm run start
 ```
 
 #### For Production
