@@ -5,9 +5,11 @@
  *
 *****************************************************************/
 
+// Namespaces
+@use 'sass:math';
 
 // Compass utilities
-@import '~compass-mixins/lib/compass/css3';
+@import 'compass-mixins/lib/compass/css3';
 
 
 // VARS
@@ -163,7 +165,7 @@ $primary-color-orange-dark: #e08833;
 	// loop to rotate all 100 circles
 	@for $j from 1 through 100 {
 		&.p#{$j} .bar {
-			@include rotate((360/100*$j) + deg);
+			@include rotate((math.div(360, 100)*$j) + deg);
 		}
 	}
 

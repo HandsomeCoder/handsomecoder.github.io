@@ -87,6 +87,34 @@
       "experiences": [
         {
           "role": {
+            "name": "software_engineer_devops",
+            "emoji": "&#129333;"
+          },
+          "organization": {
+            "name": "policyme",
+            "emoji": "&#127970;"
+          },
+          "location": "Remote, Canada",
+          "joined_on": "06/05/2023",
+          "details": [
+            {
+              "points": [
+                "Enhanced a framework enabling the creation of dynamic web-forms using Python and React.",
+                "Refactored a long-running process into smaller chunks and utilized parallel processing, achieving significant performance gains.",
+                "Optimized the CI/CD pipeline with a fail-fast approach, reducing pipeline runtime by 300%.",
+                "Enhanced the architecture to deploy different code versions to short-lived environments, improving developer experience and enabling isolated testing of changes.",
+                "Increased architectural efficiency and cost savings by strategically utilizing Amazon Elastic Beanstalk, AWS Step Functions, AWS Lambda, AWS ECR, and Amazon Lightsail.",
+                "Implemented protocols and automation to enhance infrastructure security and ensure compliance with Cloud Best Practices, SOC2, and GDPR."
+              ]
+            },
+            {
+              "title": "technologies_worked_on",
+              "points": ["Python, ReactJS, Docker, Circle CI, Amazon Web Services (AWS), Google Cloud Platform (GCP)"]
+            }
+          ]
+        },
+        {
+          "role": {
             "name": "software_developer_coop",
             "emoji": "&#129333;"
           },
@@ -96,20 +124,21 @@
           },
           "location": "Remote, Canada",
           "joined_on": "01/05/2023",
+          "served_till": "05/31/2023",
           "details": [
             {
               "points": [
-                "Enhanced the dev tool which can configure and set up the developer's workstation within 15 minutes and automatically detect and resolve issues.",
+                "Enhanced the developer tool, which can configure and set up the developer's workstation within 15 minutes and automatically detect and resolve issues.",
                 "Worked on reducing technical debt by migrating code to replace outdated libraries and fixing cosmetic UI (User Interface) issues to improve UX (User Experience).",
-                "Enhanced database seeder, allowing the QA team to insert millions of records with a single JSON lines file."
+                "Enhanced the database seeder, allowing the QA team to insert millions of records with a single JSON lines file."
               ]
             },
             {
               "title": "technologies_worked_on",
-              "points": ["Golang, PHP, ReactJS, JSON, GCP, Docker, Kubernetes"]
+              "points": ["Golang, PHP, ReactJS, Json, Docker, Kubernetes, GitLab, Argo Worflows, Google Cloud Platform (GCP)"]
             }
           ]
-         } ,
+        },
         {
           "role": {
             "name": "aws_administrator",
@@ -647,7 +676,7 @@
     {
       "title": "Programming with Google Go Specialization",
       "organization": "University of California, Irvine",
-      "issued_on": "31/12/2022",
+      "issued_on": "12/31/2022",
       "certificate": "go_specialization.png",
       "link": {
         "title": "Verify",

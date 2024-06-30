@@ -11,19 +11,19 @@
                 [textContent]="basicInfo.name[item]"></h3>
         </section>
         <section class="color-grey d-flex justify-content-center">
-            <span class="m-1 mr-3" *ngIf="basicInfo.gender">
+            <span class="m-1 ms-3" *ngIf="basicInfo.gender">
                 <span [innerHTML]="basicInfo.gender.emoji | sanitizeHTML"></span>
-                <span class="ml-1" [textContent]="basicInfo.gender.value | i18n"></span>
+                <span class="ms-1" [textContent]="basicInfo.gender.value | i18n"></span>
             </span>
             
-            <span class="m-1 mr-3" *ngIf="basicInfo.pronouns">
+            <span class="m-1 ms-3" *ngIf="basicInfo.pronouns">
                 <span [innerHTML]="basicInfo.pronouns.emoji | sanitizeHTML"></span>
-                <span class="ml-1" [textContent]="basicInfo.pronouns.value | i18n"></span>
+                <span class="ms-1" [textContent]="basicInfo.pronouns.value | i18n"></span>
             </span>
 
-            <span class="m-1 ml-3" *ngIf="basicInfo.dob">
+            <span class="m-1 ms-3" *ngIf="basicInfo.dob">
                 <span [innerHTML]="basicInfo.dob.emoji | sanitizeHTML"></span>
-                <span class="ml-1" [textContent]="basicInfo.dob.value"></span>    
+                <span class="ms-1" [textContent]="basicInfo.dob.value"></span>    
             </span>
             
         </section>

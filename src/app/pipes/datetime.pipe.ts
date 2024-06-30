@@ -1,13 +1,20 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import * as moment from 'moment';
-
+import { DateTime } from 'luxon';
 @Pipe({
   name: 'datetime'
 })
 export class DatetimePipe implements PipeTransform {
 
   transform(value: string, ...args: string[]): unknown {
-    return value == undefined ? null : moment(value).format(args[0]);
+
+    if (value == undefined) { 
+      return null
+    }
+
+    return DateTime.fromFormat(value, 'MM/dd/yyyy')
+      .setLocale('en')
+      .toFormat(args[0])
+      .toString();
   }
 
 }

@@ -5,18 +5,18 @@
             <section class="card-body">
 
                 <section class="float-end">
-                    <span [textContent]="experience.joined_on | datetime: 'MMM \'YY'"></span>
+                    <span [textContent]="experience.joined_on | datetime: 'LLLL yyyy'"></span>
                     <span [textContent]="' - '"></span>
-                    <span [textContent]="(experience.served_till | datetime: 'MMM \'YY') || 'Present'"></span>
+                    <span [textContent]="(experience.served_till | datetime: 'LLLL yyyy') || 'Present'"></span>
                 </section>
 
                 <section class="h5 fw-bold">
-                    <span class="mr-1" [innerHTML]="experience.organization.emoji"></span>
+                    <span class="me-1" [innerHTML]="experience.organization.emoji"></span>
                     <span [textContent]="experience.organization.name | i18n"></span>
                 </section>
 
                 <section>
-                    <span class="mr-1" [innerHTML]="experience.role.emoji"></span>
+                    <span class="me-1" [innerHTML]="experience.role.emoji"></span>
                     <em [textContent]="experience.role.name | i18n"></em>
                 </section>
 
